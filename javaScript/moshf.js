@@ -3,6 +3,7 @@ $(document).ready(function () {
     $(".them").css('background-color', JSON.parse(localStorage.getItem("thems")));
     $("footer").css('background-color', JSON.parse(localStorage.getItem("thems")));
   }
+  $(".box").css("display", 'flex')
   $("#nav").fadeIn(1000);
   $(window).scroll(function () {
     if (window.scrollY > 500) {
@@ -46,13 +47,13 @@ $(document).ready(function () {
   updatePages();
 
   // them action
-  $(".box").css("display", 'flex')
   $(".fa-gear").click(() => {
     let x = $(".colors").outerWidth();
     if ($(".box").css("left") === '0px') {
       $(".box").animate({ left: `-${x}` }, 1000)
     } else {
       $(".box").animate({ left: `0px` }, 1000)
+
     }
   });
   let spans = $(".colors span");
