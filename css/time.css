@@ -1,3 +1,10 @@
+#nav{
+  position: fixed;
+  width: 100%;
+  z-index: 1000000;
+  top: 0%;
+  display: none;
+}
 .time-piranr{
   padding: 15px;
   margin-top: 20px;
@@ -36,8 +43,8 @@
     align-items: start;
     position: fixed;
     top: 110px;
-    left: -195.75px;
-    z-index: 10000000000;
+    left: -227.75px;
+    z-index: 100;
     display: none;
   }
   .box .colors{
