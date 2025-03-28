@@ -50,9 +50,10 @@ body{
 }
 .navbar-nav{
     display: flex;
-    align-items: center;
+    gap:5px;
   }
   #nav{
+    background-color: #a52a2a;
     position: fixed;
     width: 100%;
     z-index: 1000000;
