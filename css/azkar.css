@@ -53,6 +53,7 @@ body{
     align-items: center;
   }
   #nav{
+    background-color: #a52a2a;
     position: fixed;
     width: 100%;
     z-index: 1000000;
